@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		09FE669A25ED002D00DEBF90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09FE669925ED002D00DEBF90 /* AppDelegate.swift */; };
 		09FE669C25ED002D00DEBF90 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09FE669B25ED002D00DEBF90 /* SceneDelegate.swift */; };
-		09FE669E25ED002D00DEBF90 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09FE669D25ED002D00DEBF90 /* ContentView.swift */; };
+		09FE669E25ED002D00DEBF90 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09FE669D25ED002D00DEBF90 /* WelcomeView.swift */; };
 		09FE66A025ED003000DEBF90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09FE669F25ED003000DEBF90 /* Assets.xcassets */; };
 		09FE66A325ED003000DEBF90 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09FE66A225ED003000DEBF90 /* Preview Assets.xcassets */; };
 		09FE66A625ED003000DEBF90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09FE66A425ED003000DEBF90 /* LaunchScreen.storyboard */; };
+		09FE66AF25ED005900DEBF90 /* jp.json in Resources */ = {isa = PBXBuildFile; fileRef = 09FE66AE25ED005900DEBF90 /* jp.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		09FE669625ED002D00DEBF90 /* Demo2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09FE669925ED002D00DEBF90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		09FE669B25ED002D00DEBF90 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		09FE669D25ED002D00DEBF90 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		09FE669D25ED002D00DEBF90 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		09FE669F25ED003000DEBF90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09FE66A225ED003000DEBF90 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		09FE66A525ED003000DEBF90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		09FE66A725ED003000DEBF90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09FE66AE25ED005900DEBF90 /* jp.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = jp.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +60,9 @@
 			children = (
 				09FE669925ED002D00DEBF90 /* AppDelegate.swift */,
 				09FE669B25ED002D00DEBF90 /* SceneDelegate.swift */,
-				09FE669D25ED002D00DEBF90 /* ContentView.swift */,
+				09FE669D25ED002D00DEBF90 /* WelcomeView.swift */,
 				09FE669F25ED003000DEBF90 /* Assets.xcassets */,
+				09FE66AE25ED005900DEBF90 /* jp.json */,
 				09FE66A425ED003000DEBF90 /* LaunchScreen.storyboard */,
 				09FE66A725ED003000DEBF90 /* Info.plist */,
 				09FE66A125ED003000DEBF90 /* Preview Content */,
@@ -133,6 +136,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				09FE66A625ED003000DEBF90 /* LaunchScreen.storyboard in Resources */,
+				09FE66AF25ED005900DEBF90 /* jp.json in Resources */,
 				09FE66A325ED003000DEBF90 /* Preview Assets.xcassets in Resources */,
 				09FE66A025ED003000DEBF90 /* Assets.xcassets in Resources */,
 			);
@@ -147,7 +151,7 @@
 			files = (
 				09FE669A25ED002D00DEBF90 /* AppDelegate.swift in Sources */,
 				09FE669C25ED002D00DEBF90 /* SceneDelegate.swift in Sources */,
-				09FE669E25ED002D00DEBF90 /* ContentView.swift in Sources */,
+				09FE669E25ED002D00DEBF90 /* WelcomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
